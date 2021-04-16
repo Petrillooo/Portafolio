@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang=es>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio PetrilloCSS</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<body class="contenido">
+
+    <header class="botones">
+
+        <div class="header_wave" overflow: hidden;><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C263.26,187.00 220.93,-13.31 527.36,-7.39 L499.72,-3.45 L0.00,0.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+
+        <div class="botones_container">
+            <nav class="nav">
+                <a class="nav_items" href="index.html">Sobre mi</a>
+                <a class="nav_items" href="index.html">Proyectos</a>
+            </nav> 
+        </div> 
+
+    </header>
+
+    <main class="container">
+        <form enctype="text/plain" class="form" action="mailto:gferrer1207@gmail.com" method:"post">
+
+            <div class="email">
+
+                <img src="assets/mifoto.jpeg" alt="Mi foto" class="contact_picture"><br>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>                  
+
+                <input type="submit" name="envio" class="envio" >
+
+                <input type="reset" name="reseteo" class="reseteo">
+
+            </div>
+        </form>
+    </main>
+
+    <script src="https://kit.fontawesome.com/bfb78a7bdb.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
